@@ -49,12 +49,10 @@ pile is at most 3 deep.
 
 When a pawn is on a "Source" square, it may take some or all of the
 cards from that square and carry them to empty squares on the board to
-lay down.  A pawn that is carrying cards must lay down or discard one
-card during each turn if it is carrying any.  Players use this to
-build up networks of streamlines to carry them from one side of the
-board to another more quickly.  And yes, players can ride each others'
-streamlines, just as they can jump each others' markers in Chinese
-checkers.
+lay down. Players use this to build up networks of streamlines to
+carry them from one side of the board to another more quickly.  And
+yes, players can ride each others' streamlines, just as they can jump
+each others' markers in Chinese checkers.
 
 If a pawn occupies a square for its whole turn (i.e., doesn't move),
 it can turn the card in that square 90 degrees in either direction to
@@ -75,10 +73,38 @@ Some cards in the deck are special:
     pawn *except* the color of the second can move onto a square of the
     second kind.
 
-*   There are "Pickup" cards, which allow a pawn to pick up the card in
-    the square it currently occupies.  (The "Pickup" card is then
-    discarded.)
+*   "Pickup" cards allow a pawn to pick up the card in the square it
+    currently occupies.  (The "Pickup" card is then discarded.)
+
+*   "Poison" cards destroy a "Source".
+
+*   "Extra Move" cards allow a pawn to move one extra square.
+
+Cards that have been discarded go into a pile and are re-dealt when
+the deck runs dry.  This means that streamline cards will eventually
+be used up, and the deck will mostly contain special cards later in
+the game.
 
 If a player loses their home "Source" because a "Poison" card has been
 dropped on it, they are out of the game.  The game is over when there
 is only one player left alive.
+
+Notes
+-----
+
+*   Should we add a rule saying streamline cards can't be opposed so
+    that the following wouldn't be allowed?
+
+    +-----+-----+
+    |     |     |
+    |     |     |
+    |  +->|<-+  |
+    |  |  |  |  |
+    +-----+-----+
+
+*   If a pawn is on a square with a card, should it be able to remove
+    the card from the square and put it in the discard pile for
+    recycling?
+
+*   Should a pawn that is carrying cards have to lay down or discard one
+    card during each turn?
