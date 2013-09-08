@@ -92,8 +92,8 @@ is only one player left alive.
 Notes
 -----
 
-*   Should we add a rule saying streamline cards can't be opposed so
-    that the following wouldn't be allowed?
+Should we add a rule saying streamline cards can't be opposed so that
+the following wouldn't be allowed?
 
     +-----+-----+
     |     |     |
@@ -102,9 +102,8 @@ Notes
     |  |  |  |  |
     +-----+-----+
 
-*   If a pawn is on a square with a card, should it be able to remove
-    the card from the square and put it in the discard pile for
-    recycling?
+If a pawn is on a square with a card, should it be able to remove the
+card from the square and put it in the discard pile for recycling?
 
-*   Should a pawn that is carrying cards have to lay down or discard one
-    card during each turn?
+Should a pawn that is carrying cards have to lay down or discard one
+card during each turn?
