@@ -41,6 +41,18 @@ Unless specified, Power cards are not discarded after being used.
 Unused Power cards are shuffled into the shared deck to be dealt out during
 the game.
 
+Turns
+-----
+
+Players take turns to play, in clockwise order.
+A player's turn consists of two phases: a Clock Is Ticking phase and an Actions phase.
+
+During the Clock Is Ticking phase, the player draws one card per Planet.
+For each card drawn, if it is a Collapse card, follow the rules on the
+Events -> Collapse section. Otherwise, discard the card.
+
+When one card per planet has been drawn, the player moves to the Actions phase.
+
 Actions
 -------
 
@@ -96,10 +108,6 @@ However, a ship can never enter a square moving against a streamline
 cannot enter square F from square B or E, and that the only way for a
 ship to enter square G is from square K.
 
-A ship can also spend two Action points to
-turn the card in the square it occupies 90 degrees in either direction to
-adjust the streamlines.
-
 Loading Up
 ----------
 
@@ -109,7 +117,7 @@ This card may be a:
 
 * Power card: the player adds it to the ship's capabilities and
   may draw another card (without using up additional Actions).
-  If subsequent cards are also a Power cards, the player may continue drawing
+  If subsequent cards are also Power cards, the player may continue drawing
   (without using up Actions). 
 * Refugee or Streamline cards: these fill up the ship's cargo carrying
   capacity. If there is no cargo space in the ship to accommodate the new card,
@@ -118,7 +126,10 @@ This card may be a:
   Refugee cards dumped this way are lost for the rest of the game.
   Streamline cards dumped this way are placed in the discard pile,
   and so they may come back to the game later on.
-* Event cards: these take effect immediately.
+* Event cards: these take effect immediately. The player may then draw another card
+  (without using up additional Actions).
+  If subsequent cards are also Event cards, the player may continue drawing
+  (without using up Actions). 
 
 Events
 ------
@@ -129,15 +140,17 @@ Events are:
   Place it on top of the Planet it was drawn from.
   The second Collapse card indicates that the planet is about to turn
   into a black hole.
-  After every player, up to and including the player who drew the Collapse card,
-  has had one more turn, the Planet's star turns into a black hole.
-  It is no longer a source of tiles,
+  Every player, including the player who drew the Collapse card,
+  has one more turn before the Planet's star turns into a black hole.
+  When it turns into a black hole, the Planet is no longer a source of tiles,
   and any ship sitting on or passing through the black hole is lost forever.
   The game ends, and all players lose,
   when all of the Planets have been turned into black holes. 
   Alternatively, the
   players win if they have rescued the required number of refugees
   before that happens.
+  Additional Collapse cards on a collapsing planet have no effect
+  and are discarded.
 
 Special Cards
 -------------
@@ -153,6 +166,9 @@ Some cards in the deck are special:
   streamlines to a gate, but not from it in the same turn).  Ships may
   only jump between matching Gates, and Gates must be carried into
   place like other cargo.
+* Engineering: allows a ship that uses it when on top of a Streamline
+  card to rotate that Streamline card 90 degrees in either direction.
+  The Engineering card is then discarded.
 
 Cards that have been played go into a pile and are re-dealt when the
 deck runs dry.  This means that streamline cards will eventually be
