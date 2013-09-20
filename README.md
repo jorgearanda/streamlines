@@ -12,25 +12,33 @@ of cards:
 - Refugee cards: represent the people the players are trying to rescue
 - Event cards: good or bad news (usually bad)
 
+The game also includes two other kinds of cards,
+which are arranged on the board
+according to the map of the scenario the players choose to play.
+These are Escape tile cards, and Planet tile cards.
+
 The goal of the game is rescue as many Refugees as possible before
 disaster overwhelms the playing board.  To rescue Refugees, a player
 must carry them on a ship from a Planet square (where they first
 appear) to an Escape square (where they leave).  The players win if
-they save more than half of the Refugees before the planets are
-consumed by black holes.
+they save at least as many Refugees as required in their scenario
+before the planets are consumed by black holes.
 
 Powers
 ------
 
-At the start of the game, each player is given one Movement card, one
-Cargo, and two other Power cards dealt at random.
+At the start of the game, each player is given one Action card, one
+Cargo card (Action and Cargo cards are two kinds of Power cards), 
+and two other Power cards dealt at random.
 
 * Action: each ship gets one action per turn for each Action card it
   has.
 * Cargo: each ship can carry one Refugee or one Streamline card for
   each Cargo card it has.
 
-Unused Power cards are put in the shared deck to be dealt out during
+Unless specified, Power cards are not discarded after being used.
+
+Unused Power cards are shuffled into the shared deck to be dealt out during
 the game.
 
 Actions
@@ -40,7 +48,7 @@ In each turn, each ship can perform as many actions as it has Action
 cards.  Allowed actions are:
 
 * Make one move.
-* Pick up a card when on an Planet square.
+* Pick up one card when on an Planet square.
 * Play a Streamline card on an empty square.
 * Drop off refugees at an Escape square.
 * Transfer one unit of cargo to another ship on the same square.
@@ -74,7 +82,7 @@ strealines to F, B, and finally A, and so on.
     +-----+-----+-----+-----+
     |E ^  |F ^  |G ^  |H    |
     |  |  |  |  |  |  |     |
-    |  +->|  +->|<-+->|     |
+    |  +->|<-+  |<-+->|     |
     |     |     |     |     |
     +-----+-----+-----+-----+
     |I    |J    |K    |L    |
@@ -85,36 +93,50 @@ strealines to F, B, and finally A, and so on.
 
 However, a ship can never enter a square moving against a streamline
 (not even at the start of its movement).  This means that a ship
-cannot enter square F from square B or G, and that the only way for a
+cannot enter square F from square B or E, and that the only way for a
 ship to enter square G is from square K.
+
+A ship can also spend two Action points to
+turn the card in the square it occupies 90 degrees in either direction to
+adjust the streamlines.
 
 Loading Up
 ----------
 
 Initially, there are no streamlines on the board.  Instead, whenever a
-ship is on a Planet square, it draws one or more cards from the deck.
-These cards may be:
+ship is on a Planet square, it may use an Action to draw one card from the deck.
+This card may be a:
 
-* Power cards: the player adds them to the ship's capabilities and
-  keeps drawing.
+* Power card: the player adds it to the ship's capabilities and
+  may draw another card (without using up additional Actions).
+  If subsequent cards are also a Power cards, the player may continue drawing
+  (without using up Actions). 
 * Refugee or Streamline cards: these fill up the ship's cargo carrying
-  capacity.  The player stops drawing cards when it is full.
+  capacity. If there is no cargo space in the ship to accommodate the new card,
+  the player must get rid of (dump into space) 
+  one of their cards in cargo or the card that was just drawn.
+  Refugee cards dumped this way are lost for the rest of the game.
+  Streamline cards dumped this way are placed in the discard pile,
+  and so they may come back to the game later on.
 * Event cards: these take effect immediately.
-
-If a ship occupies a square for its whole turn (i.e., doesn't move),
-it can turn the card in that square 90 degrees in either direction to
-adjust the streamlines.
 
 Events
 ------
 
 Events are:
 
-* Collapse: when a collapse card appears, it is stacked on the Planet
-  it is drawn at.  When there are three Collapse cards on a planet,
-  its star collapses, turning it into a black hole.  The game ends
-  when all of the Planets have been turned into black holes.  The
-  players win if they have rescued more than half of the refugees
+* Collapse: the first Collapse card is merely a warning.
+  Place it on top of the Planet it was drawn from.
+  The second Collapse card indicates that the planet is about to turn
+  into a black hole.
+  After every player, up to and including the player who drew the Collapse card,
+  has had one more turn, the Planet's star turns into a black hole.
+  It is no longer a source of tiles,
+  and any ship sitting on or passing through the black hole is lost forever.
+  The game ends, and all players lose,
+  when all of the Planets have been turned into black holes. 
+  Alternatively, the
+  players win if they have rescued the required number of refugees
   before that happens.
 
 Special Cards
